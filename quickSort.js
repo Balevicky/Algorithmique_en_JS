@@ -14,6 +14,7 @@ function quickSort(array) {
   if (arrLeft.length > 0 && arrRight.length > 0) {
     console.log(arrLeft, pivot, arrRight);
     return [...quickSort(arrLeft), pivot, ...quickSort(arrRight)];
+
   } else if (arrLeft.length > 0) {
     console.log(arrLeft);
     return [...quickSort(arrLeft), pivot];

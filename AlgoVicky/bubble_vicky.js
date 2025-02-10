@@ -8,8 +8,8 @@ let array1 = [];
 
 function bubbleVicky(array) {
   for (let i = 0; i < array.length; i++) {
-    setTimeout(() => {
-      for (let j = i + 1; j < array.length; j++) {
+    for (let j = i + 1; j < array.length; j++) {
+      setTimeout(() => {
         if (array[j] < array[i]) {
           [array[i], array[j]] = [array[j], array[i]];
           let useurIdi = document.getElementById("user" + array[i]);
@@ -24,8 +24,8 @@ function bubbleVicky(array) {
           useurIdj.style.height = array[i] + "px";
           // console.log(array);
         }
-      }
-    }, 300);
+      }, 300);
+    }
     // console.log(array);
   }
   //   ================= METHODE SORT

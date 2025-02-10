@@ -12,7 +12,7 @@ margin: 100px auto;
 }
 .graph{
 
-    padding: 100px;
+    padding: 10px;
    /* transform: rotate(); /* display: table-cell; */
    /* transform: ; */ */
 }
@@ -24,3 +24,9 @@ margin: 100px auto;
     /* height: 10; */
   /* display: list-item;   */
 } 
+button {
+    width: 150PX;
+    height: 35px;
+    margin: 10px ;
+
+}
